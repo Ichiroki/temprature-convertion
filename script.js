@@ -78,34 +78,3 @@ else {
         alert('The Result is ' + resRK);
     }
 }
-
-// Callback
-// function halo(nama) {
-//     alert('Halo ' + nama);
-// }
-
-// function tampilkanPesan(ps) {
-//     const nama = prompt('Masukkan Nama : ');
-//     ps(nama);
-// }
-
-// tampilkanPesan(nama => alert('Halo, ' + nama));
-
-// Asynchronous Callback
-// function getDataMahasiswa(url, success, error) {
-//     let xhr = new XMLHttpRequest();
-
-//     xhr.onreadystatechange = function() {
-//         if( xhr.readyState === 4 ) {
-//             if(xhr.status === 200) {
-//                 success(xhr.response)
-//             } else if ( xhr.stats === 404 ) {
-//                 error();
-//             }
-//         }
-//     }
-//     xhr.open('get', url);
-//     xhr.send();
-// }
-
-// getDataMahasiswa('')
