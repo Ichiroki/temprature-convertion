@@ -1,0 +1,5 @@
+Fitur - Fitur yang akan diimplementasi :
+
+- Perubahan pada source code HTML,
+- Perubahan Web Page yang menggunakan CSS,
+- Perubahan pada source code Javascript.
